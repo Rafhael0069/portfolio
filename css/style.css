@@ -1,3 +1,14 @@
 body{
     background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: column;
+}
+.cabecalho {
+    border: 1px solid rgb(36, 36, 36);
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
 }
