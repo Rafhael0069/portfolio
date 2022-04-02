@@ -1,14 +1,63 @@
-body{
+body {
     background-color: rgb(230, 230, 230);
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
+
 }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*----------------- Cabecalho -------------------*/
 .cabecalho {
-    border: 1px solid rgb(36, 36, 36);
-    border-radius: 5px;
-    margin: 5px;
+    background-color: #1c234a;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 120px;
+    height: 50px;
+}
+
+.nome-completo {
+    border: 1px solid red;
+    margin-left: 10px;
+    color: #1bfaad;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.navegacao {
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+.ul-navegacao {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+
+.botao a {
+    border: 1px solid yellow;
+    color: #1bfaad;
+    font-size: 26px;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.botao a:hover {
+    background-color: #1bfaad;
+    color: #1c234a;
 }
