@@ -35,15 +35,10 @@ a {
     padding: 5px;
 }
 
-.navegacao {
-    margin-right: 10px;
-}
-
 .ul-navegacao {
+    margin-right: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 40px;
 }
 
 .botao a {
@@ -60,53 +55,78 @@ a {
     -moz-transition: background-color 0.8s, color 0.8s;
     -o-transition: background-color 0.8s, color 0.8s;
     transition: background-color 0.8s, color 0.8s;
-
-    /*
-    -webkit-animation: botao-navegacao 0.8s;
-    -moz-animation: botao-navegacao 0.8s;
-    -o-animation: botao-navegacao 0.8s;
-    animation: botao-navegacao 0.8s;
-    */
 }
+
+/*----------------- Conteudo -------------------*/
+
+.conteudo {
+    border: 1px solid black;
+    margin: 40px 50px 0 50px;
+}
+
+.caixa-conteudo {
+    height: 92vh;
+    display: flex;
+    align-items: center;
+}
+
+.img-conteudo {
+    border: 1px solid red;
+    width: 400px;
+    height: 400px;
+}
+
+.texto-conteudo {
+    border: 1px solid yellow;
+    padding: 20px;
+}
+
 
 /*----------------- Animações -------------------*/
 
 @-webkit-keyframes botao-navegacao {
-    from{
+    from {
         color: #1bfaad;
         background-color: #1c234a;
     }
-    to{
+
+    to {
         background-color: #1bfaad;
         color: #1c234a;
     }
 }
+
 @-moz-keyframes botao-navegacao {
-    from{
+    from {
         color: #1bfaad;
         background-color: #1c234a;
     }
-    to{
+
+    to {
         background-color: #1bfaad;
         color: #1c234a;
     }
 }
+
 @-o-keyframes botao-navegacao {
-    from{
+    from {
         color: #1bfaad;
         background-color: #1c234a;
     }
-    to{
+
+    to {
         background-color: #1bfaad;
         color: #1c234a;
     }
 }
+
 @keyframes botao-navegacao {
-    from{
+    from {
         color: #1bfaad;
         background-color: #1c234a;
     }
-    to{
+
+    to {
         background-color: #1bfaad;
         color: #1c234a;
     }
