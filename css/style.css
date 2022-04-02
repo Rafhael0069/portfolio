@@ -29,7 +29,6 @@ a {
 }
 
 .nome-completo {
-    border: 1px solid red;
     margin-left: 10px;
     color: #1bfaad;
     font-size: 30px;
@@ -37,12 +36,10 @@ a {
 }
 
 .navegacao {
-    border: 1px solid black;
     margin-right: 10px;
 }
 
 .ul-navegacao {
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,7 +47,6 @@ a {
 }
 
 .botao a {
-    border: 1px solid yellow;
     color: #1bfaad;
     font-size: 26px;
     border-radius: 5px;
@@ -60,4 +56,58 @@ a {
 .botao a:hover {
     background-color: #1bfaad;
     color: #1c234a;
+    -webkit-transition: background-color 0.8s, color 0.8s;
+    -moz-transition: background-color 0.8s, color 0.8s;
+    -o-transition: background-color 0.8s, color 0.8s;
+    transition: background-color 0.8s, color 0.8s;
+
+    /*
+    -webkit-animation: botao-navegacao 0.8s;
+    -moz-animation: botao-navegacao 0.8s;
+    -o-animation: botao-navegacao 0.8s;
+    animation: botao-navegacao 0.8s;
+    */
+}
+
+/*----------------- Animações -------------------*/
+
+@-webkit-keyframes botao-navegacao {
+    from{
+        color: #1bfaad;
+        background-color: #1c234a;
+    }
+    to{
+        background-color: #1bfaad;
+        color: #1c234a;
+    }
+}
+@-moz-keyframes botao-navegacao {
+    from{
+        color: #1bfaad;
+        background-color: #1c234a;
+    }
+    to{
+        background-color: #1bfaad;
+        color: #1c234a;
+    }
+}
+@-o-keyframes botao-navegacao {
+    from{
+        color: #1bfaad;
+        background-color: #1c234a;
+    }
+    to{
+        background-color: #1bfaad;
+        color: #1c234a;
+    }
+}
+@keyframes botao-navegacao {
+    from{
+        color: #1bfaad;
+        background-color: #1c234a;
+    }
+    to{
+        background-color: #1bfaad;
+        color: #1c234a;
+    }
 }
