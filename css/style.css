@@ -3,11 +3,13 @@ html {
 }
 
 body {
-    background-color: rgb(230, 230, 230);
+    background-color: #e0e2e9;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 ul {
@@ -17,6 +19,7 @@ ul {
 a {
     text-decoration: none;
 }
+    
 
 /*----------------- Cabecalho -------------------*/
 .cabecalho {
@@ -80,58 +83,50 @@ a {
 
 .texto-conteudo {
     padding: 20px;
+    color: #0d1432;
 }
 
 /*----------------- Rodapé -------------------*/
 
-
-
-/*----------------- Animações -------------------*/
-
-@-webkit-keyframes botao-navegacao {
-    from {
-        color: #1bfaad;
-        background-color: #1c234a;
-    }
-
-    to {
-        background-color: #1bfaad;
-        color: #1c234a;
-    }
+#contatos{
+    background-color: #1c234a;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
 }
 
-@-moz-keyframes botao-navegacao {
-    from {
-        color: #1bfaad;
-        background-color: #1c234a;
-    }
-
-    to {
-        background-color: #1bfaad;
-        color: #1c234a;
-    }
+.caixa-contato{
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-@-o-keyframes botao-navegacao {
-    from {
-        color: #1bfaad;
-        background-color: #1c234a;
-    }
-
-    to {
-        background-color: #1bfaad;
-        color: #1c234a;
-    }
+.divisor{
+    background: #e0e2e9;
+    width: 1px;
+    height: 80px;
 }
 
-@keyframes botao-navegacao {
-    from {
-        color: #1bfaad;
-        background-color: #1c234a;
-    }
+#divisor-email{
+    width: 30px;
+}
 
-    to {
-        background-color: #1bfaad;
-        color: #1c234a;
-    }
+.caixa-email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 49%;
+}
+.paragraf-email{
+    color: #1bfaad;
+    font-size: 25px;
+}
+
+.imagem-contato{
+    width: 50px;
+    height: 50px;
 }
