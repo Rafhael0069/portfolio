@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(230, 230, 230);
     display: flex;
@@ -60,7 +64,6 @@ a {
 /*----------------- Conteudo -------------------*/
 
 .conteudo {
-    border: 1px solid black;
     margin: 40px 50px 0 50px;
 }
 
@@ -71,15 +74,16 @@ a {
 }
 
 .img-conteudo {
-    border: 1px solid red;
     width: 400px;
     height: 400px;
 }
 
 .texto-conteudo {
-    border: 1px solid yellow;
     padding: 20px;
 }
+
+/*----------------- Rodapé -------------------*/
+
 
 
 /*----------------- Animações -------------------*/
