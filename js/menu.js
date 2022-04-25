@@ -21,6 +21,12 @@ class MobileNavbar {
   handleClick() {
     this.ulNavegacao.classList.toggle(this.activeClass);
     this.menuMobile.classList.toggle(this.activeClass);
+  /*   console.log("teste");
+    if(this.menuMobilei.activeClass){
+        console.log("entrou");
+    }else{
+        console.log("não entrou");
+    } */
     this.animateLinks();
   }
 
