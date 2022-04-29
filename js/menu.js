@@ -27,7 +27,7 @@ class MobileNavbar {
     }else{
         console.log("não entrou");
     } */
-    this.animateLinks();
+    //this.animateLinks();
   }
 
   addClickEvent() {
